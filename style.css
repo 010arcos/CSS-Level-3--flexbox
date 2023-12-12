@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0px auto;
+
+
+
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    background-color: black;
+
+
+
+}
+
+nav ul>li:hover {
+    background-color: #00B3FF;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:first-child {
+
+    margin-left: 70px;
+
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+.container-1 {
+    width: 100%;
+    background-color: rgb(58, 83, 94);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+
+}
+
+.btn {
+    background-color: #00B3FF;
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    border-radius: 5px;
+
+
+
+}
+
+.btn:hover {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1eaae6;
+}
+
+
+.info-box {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+
+}
+
+
+#flex-p {
+    display: flex;
+    padding-top: 50px;
+    gap: 60px;
+}
+
+#flex-p i {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+
+
+
+.quote {
+    width: 100%;
+    background-color: rgb(31, 128, 192);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    /*diferencia a align items?*/
+}
+
+.container-2 {
+    padding-top: 25px;
+
+}
+
+.quote i {
+    font-size: 30px;
+}
+
+
+footer .container-3 {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* diferencia con text align*/
+    padding: 40px;
+}
+
+
+
+header div h1,
+header>div>h2,
+a {
+
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+
+
+}
+
+header div h1 {
+    margin-top: 100px;
+    padding-bottom: 20px;
+
+}
+
+header div a {
+    margin-bottom: 70px;
+}
+
+
+
+@media screen and (min-width: 350px) and (max-width: 700px) {
+    #flex-p {
+        display: flex;
+        padding-top: 50px;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    nav ul {
+        justify-content: center;
+
+    }
+
+    nav ul li:first-child {
+
+        margin-left: 0px;
+    
+    }
+
+    
+
+
+
+}
